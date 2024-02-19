@@ -1,13 +1,11 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import AppHeader from './components/AppHeader.vue'
 </script>
 
 <template>
-  <HelloWorld msg="Vite + Vue" />
+  <AppHeader/>
 </template>
 
 <style lang="scss">
-
 @use './style/general.scss' as *;
-
 </style>
