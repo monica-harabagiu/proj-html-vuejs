@@ -118,27 +118,7 @@ header {
       }
     }
 
-    .socials {
-
-      li {
-
-        width: 20px;
-        height: 20px;
-        background-color: $secondary-color;
-        border-radius: 50%;
-
-        &:hover {
-
-          background-color: $accent-color;
-        }
-
-        i {
-
-          color: $secondary-light-color;
-          font-size: .8rem;
-        }
-      }
-    }
+    
   }
 
   .header-bottom {

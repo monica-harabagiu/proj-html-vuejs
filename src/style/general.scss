@@ -7,6 +7,38 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-a {
-    color: black;
+.footer-top-menu a {
+    color: $main-dark-color;
+    font-size: .9rem;
 }
+
+.footer-bottom-menu a {
+    color: $secondary-light-color;
+    font-size: .8rem;
+}
+
+p {
+    color: $secondary-color;
+}
+
+.socials {
+
+    li {
+
+      width: 20px;
+      height: 20px;
+      background-color: $secondary-color;
+      border-radius: 50%;
+
+      &:hover {
+
+        background-color: $accent-color;
+      }
+
+      i {
+
+        color: $secondary-light-color;
+        font-size: .8rem;
+      }
+    }
+  }
