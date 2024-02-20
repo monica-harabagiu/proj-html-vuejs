@@ -6,7 +6,7 @@
 
                 <div class="col text-center d-flex flex-column gap-4 ">
                     <h2>Yacht Charters, Repairs & Transportation, US-wide!</h2>
-                    <div><button class="btn px-3 py-2">More Details</button></div>
+                    <div><button class="btn py-3 px-4">More Details</button></div>
                 </div>
 
             </div>

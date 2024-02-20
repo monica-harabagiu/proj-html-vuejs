@@ -12,7 +12,7 @@
                             <h1>{{ element.title }}</h1>
                             <h6>{{ element.description }}</h6>
                             <div class="mt-3">
-                                <button type="button" class="btn btn-outline-light py-2 px-4">Learn More</button>
+                                <button type="button" class="btn btn-outline-light py-3 px-4">Learn More</button>
                             </div>
                         </div>
 

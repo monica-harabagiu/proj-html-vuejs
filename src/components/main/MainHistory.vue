@@ -32,7 +32,7 @@
                         </span>
                     </p>
                     <div>
-                        <button class="btn px-3 py-2">Read More</button>
+                        <button class="btn py-3 px-4">Read More</button>
                     </div>
 
                 </div>
