@@ -17,6 +17,11 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+img {
+  width: 100%;
+  display: block;
+}
+
 .footer-top-menu a {
   color: $main-dark-color;
   font-size: .9rem;

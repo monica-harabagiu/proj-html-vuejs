@@ -4,6 +4,7 @@
         <MainHistory/>
         <MainBetter/>
         <MainServices/>
+        <MainYachts/>
     </main>
 </template>
 
@@ -13,6 +14,7 @@ import MainHero from './MainHero.vue'
 import MainHistory from './MainHistory.vue'
 import MainBetter from './MainBetter.vue'
 import MainServices from './MainServices.vue'
+import MainYachts from './MainYachts.vue'
 
 export default {
     name: 'AppMain',
@@ -26,6 +28,7 @@ export default {
         MainHistory,
         MainBetter,
         MainServices,
+        MainYachts
     }
 }
 </script>

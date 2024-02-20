@@ -118,5 +118,39 @@ export const store = reactive({
             title: 'Corporate Events',
             text: 'When it comes to organizing a corporate yacht charter of a Fortune 500 scale for a big crew of people – we will be able to make it flawless.We will exceed your expectations!'
         }
+    ],
+    arrYachts: [
+        {
+            name: 'Express',
+            img: 'services-1'
+        },
+        {
+            name: 'Express',
+            img: 'services1'
+        },
+        {
+            name: 'Express',
+            img: 'services2'
+        },
+        {
+            name: 'Express',
+            img: 'services3'
+        },
+        {
+            name: 'Express',
+            img: 'services4'
+        },
+        {
+            name: 'Express',
+            img: 'services5'
+        },
+        {
+            name: 'Express',
+            img: 'services6'
+        },
+        {
+            name: 'Express',
+            img: 'services7'
+        }
     ]
 })
