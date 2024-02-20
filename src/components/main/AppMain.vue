@@ -2,6 +2,7 @@
     <main>
         <MainHero/>
         <MainHistory/>
+        <MainBetter/>
     </main>
 </template>
 
@@ -9,6 +10,7 @@
 import { store } from '../../store.js'
 import MainHero from './MainHero.vue'
 import MainHistory from './MainHistory.vue'
+import MainBetter from './MainBetter.vue'
 
 export default {
     name: 'AppMain',
@@ -19,7 +21,8 @@ export default {
     },
     components: {
         MainHero,
-        MainHistory
+        MainHistory,
+        MainBetter
     }
 }
 </script>
