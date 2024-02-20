@@ -66,5 +66,25 @@ export const store = reactive({
             name: 'Terms of Use',
             link: '#',
         }
+    ],
+    heroCarousel: [
+        {
+            img: './src/assets/img/bg1-1.jpg',
+            title: 'QuickWind',
+            description: `all kinds of boats, yacht charters and sailing destinations for hobbyist yachtsmen and
+            women!`,
+        },
+        {
+            img: './src/assets/img/bg2.jpg',
+            title: 'QuickWind',
+            description: `all kinds of boats, yacht charters and sailing destinations for hobbyist yachtsmen and
+            women!`,
+        },
+        {
+            img: './src/assets/img/bg3.jpg',
+            title: 'QuickWind',
+            description: `all kinds of boats, yacht charters and sailing destinations for hobbyist yachtsmen and
+            women!`,
+        }
     ]
 })
