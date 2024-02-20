@@ -86,7 +86,6 @@ export default defineComponent({
 
     button {
 
-        border-radius: 0;
         font-weight: 500;
     }
 }

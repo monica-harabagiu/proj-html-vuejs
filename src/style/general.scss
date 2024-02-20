@@ -14,41 +14,42 @@
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .footer-top-menu a {
-    color: $main-dark-color;
-    font-size: .9rem;
+  color: $main-dark-color;
+  font-size: .9rem;
 }
 
 .footer-bottom-menu a {
-    color: $secondary-light-color;
-    font-size: .8rem;
+  color: $secondary-light-color;
+  font-size: .8rem;
 }
 
 p {
-    color: $secondary-color;
+  color: $main-dark-color;
+  font-weight: 200;
 }
 
 .socials {
 
-    li {
+  li {
 
-      width: 20px;
-      height: 20px;
-      background-color: $secondary-color;
-      border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: $secondary-color;
+    border-radius: 50%;
 
-      &:hover {
+    &:hover {
 
-        background-color: $accent-color;
-      }
+      background-color: $accent-color;
+    }
 
-      i {
+    i {
 
-        color: $secondary-light-color;
-        font-size: .8rem;
-      }
+      color: $secondary-light-color;
+      font-size: .8rem;
     }
   }
+}
