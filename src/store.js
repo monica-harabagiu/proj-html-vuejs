@@ -18,23 +18,23 @@ export const store = reactive({
     menuHeader: [
         {
             name: 'About',
-            link: '#',
+            link: '#history',
         },
         {
             name: 'Services',
-            link: '#',
+            link: '#services',
         },
         {
             name: 'Yachts',
-            link: '#',
+            link: '#yachts',
         },
         {
             name: 'Reservations',
-            link: '#',
+            link: '#reservations',
         },
         {
             name: 'Blog',
-            link: '#',
+            link: '#blog',
         },
         {
             name: 'Contacts',
@@ -44,19 +44,19 @@ export const store = reactive({
     menuFooter: [
         {
             name: 'Yachts',
-            link: '#',
+            link: '#yachts',
         },
         {
             name: 'Services',
-            link: '#',
+            link: '#services',
         },
         {
             name: 'Reservations',
-            link: '#',
+            link: '#reservations',
         },
         {
             name: 'Blog',
-            link: '#',
+            link: '#blog',
         },
         {
             name: 'Privacy Policy',
@@ -186,5 +186,6 @@ export const store = reactive({
             quote: `As a yacht owner, after either of my regular maintenance checkups, I oftentimes find it necessary to do this or that kind of a repair. The thing is that I don’t always have enough time (or sometimes the skill), to do all of the repairs all by myself…`,
             name: 'Albert Winning'
         }
-    ]
+    ],
+    searchPopup: false
 })

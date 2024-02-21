@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section id="yachts">
         <div class="container">
             <div class="row text-center mb-5">
                 <h3 class="fw-bold mb-5">Our Yachts</h3>

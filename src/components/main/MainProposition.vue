@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section id="reservations">
         <div class="container">
             <div class="row">
                 <div class="col-6 d-flex flex-column gap-2">

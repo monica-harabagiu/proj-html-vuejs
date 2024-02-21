@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section id="blog">
         <div class="container">
             <div class="row text-center mb-5">
                 <h3 class="fw-bold mb-5">Yachtsmen`s Blog</h3>
