@@ -1,31 +1,33 @@
 <template>
-    <Carousel :autoplay="5000" :wrap-around="true">
+    <div class="hero">
+        <Carousel :autoplay="5000" :wrap-around="true">
 
-        <Slide v-for="(element, index) in store.heroCarousel" :key="index">
-            <div class="hero-section" :style="{ backgroundImage: `url(${element.img})` }">
-                <div class="container h-100">
+            <Slide v-for="(element, index) in store.heroCarousel" :key="index">
+                <div class="hero-section" :style="{ backgroundImage: `url(${element.img})` }">
+                    <div class="container h-100">
 
-                    <div class="row py-2 h-100">
+                        <div class="row py-2 h-100">
 
-                        <div :class="(index == 0) ? 'col-6 text-start' : 'col-12 text-center'"
-                            class="hero-content d-flex flex-column justify-content-center">
-                            <h1>{{ element.title }}</h1>
-                            <h6>{{ element.description }}</h6>
-                            <div class="mt-3">
-                                <button type="button" class="btn btn-outline-light py-3 px-4">Learn More</button>
+                            <div :class="(index == 0) ? 'col-6 text-start' : 'col-12 text-center'"
+                                class="hero-content d-flex flex-column justify-content-center">
+                                <h1>{{ element.title }}</h1>
+                                <h6>{{ element.description }}</h6>
+                                <div class="mt-3">
+                                    <button type="button" class="btn btn-outline-light py-3 px-4">Learn More</button>
+                                </div>
                             </div>
+
                         </div>
 
                     </div>
-
                 </div>
-            </div>
-        </Slide>
+            </Slide>
 
-        <template #addons>
-            <Pagination />
-        </template>
-    </Carousel>
+            <template #addons>
+                <Pagination />
+            </template>
+        </Carousel>
+    </div>
 </template>
 
 <script>
@@ -51,6 +53,8 @@ export default defineComponent({
 
 <style lang="scss" scoped>
 @use '../../style/partials/variables.scss' as *;
+
+
 
 .carousel {
 
@@ -94,14 +98,42 @@ export default defineComponent({
 
     height: 100vh;
 }
+</style>
 
-.carousel__pagination {
+<style lang="scss">
+@use '../../style/partials/variables.scss' as *;
 
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 0;
-    gap: 30px;
+.hero {
+
+    .carousel__pagination {
+
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 0;
+        gap: 30px;
+    }
+
+    .carousel__pagination-button::after {
+        display: block;
+        content: '';
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background-color: $main-light-color;
+    }
+
+    .carousel__pagination-button--active::after {
+        background-color: $accent-color;
+    }
+
+    
+    @media(hover: hover) {
+        .carousel__pagination-button:hover::after {
+            background-color: $accent-color;
+        }
+    }
+    
 }
 </style>

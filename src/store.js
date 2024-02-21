@@ -169,5 +169,22 @@ export const store = reactive({
             title: 'Video: Superyacht ‘Project Jupiter’ Launched By Lurssen',
             date: 'December 16, 2020'
         }
+    ],
+    testimonials: [
+        {
+            image: 'person0.jpg',
+            quote: `As a yacht owner, after either of my regular maintenance checkups, I oftentimes find it necessary to do this or that kind of a repair. The thing is that I don’t always have enough time (or sometimes the skill), to do all of the repairs all by myself…`,
+            name: 'Albert Winning'
+        },
+        {
+            image: 'person01.jpg',
+            quote: `As a yacht owner, after either of my regular maintenance checkups, I oftentimes find it necessary to do this or that kind of a repair. The thing is that I don’t always have enough time (or sometimes the skill), to do all of the repairs all by myself…`,
+            name: 'Albert Winning'
+        },
+        {
+            image: 'person03.jpg',
+            quote: `As a yacht owner, after either of my regular maintenance checkups, I oftentimes find it necessary to do this or that kind of a repair. The thing is that I don’t always have enough time (or sometimes the skill), to do all of the repairs all by myself…`,
+            name: 'Albert Winning'
+        }
     ]
 })
