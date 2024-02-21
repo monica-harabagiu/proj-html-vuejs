@@ -27,8 +27,7 @@
                         <div class="col-4">
                             <h5 class="m-0">Newsletter</h5>
                             <form class="d-flex mt-4" role="search">
-                                <input class="form-control py-3" type="search" placeholder="Enter your e-mail"
-                                    aria-label="Search">
+                                <input class="form-control py-3" type="text" placeholder="Enter your e-mail">
                                 <button class="btn btn-outline-success px-3" type="submit">Subscribe</button>
                             </form>
                         </div>
@@ -53,8 +52,8 @@
                         <div class="socials col-6 d-flex justify-content-end">
                             <ul class="d-flex gap-3 m-0">
                                 <li class="list-unstyled d-flex justify-content-center align-items-center"
-                                v-for="(element, index) in store.socialMenuIcons" :key="index">
-                                <a href="#"><i :class="`fa-brands ${element.icon}`"></i></a>
+                                    v-for="(element, index) in store.socialMenuIcons" :key="index">
+                                    <a href="#"><i :class="`fa-brands ${element.icon}`"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -109,6 +108,11 @@ export default {
         border: 0;
         color: $main-light-color;
         font-size: .9rem;
+
+        &:hover {
+
+            background-color: $main-dark-color;
+        }
     }
 
 }

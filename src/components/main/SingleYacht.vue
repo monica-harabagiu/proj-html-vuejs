@@ -43,6 +43,7 @@ export default {
     &:hover img {
 
         opacity: .6;
+        cursor: pointer;
     }
 
     &:hover .yacht-info {

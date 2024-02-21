@@ -1,5 +1,5 @@
 <template>
-    <div class="card d-flex flex-column align-items-center text-center gap-2">
+    <div class="card d-flex flex-column align-items-center text-center gap-2 pb-3 ">
         <figure>
             <img :src="`./src/assets/img/${propsImg}`" alt="">
         </figure>
@@ -36,6 +36,11 @@ export default {
 
         font-size: .8rem;
         color: $secondary-color;
+    }
+
+    &:hover {
+        box-shadow: 0 0 20px #09c1dd54;
+        cursor: pointer;
     }
 
 }
