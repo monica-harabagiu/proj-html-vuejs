@@ -152,5 +152,22 @@ export const store = reactive({
             name: 'Express',
             img: 'services7'
         }
+    ],
+    blogArticles: [
+        {
+            image: 'post1-1-570x450.jpg',
+            title: 'Is Greece a Good Choice for Yacht Sailing?',
+            date: 'December 16, 2020'
+        },
+        {
+            image: 'post2-1-570x450.jpg',
+            title: 'Seattle Yachts and Northwest Yachts Announce Merger',
+            date: 'December 16, 2020'
+        },
+        {
+            image: 'post3-1-570x450.jpg',
+            title: 'Video: Superyacht ‘Project Jupiter’ Launched By Lurssen',
+            date: 'December 16, 2020'
+        }
     ]
 })

@@ -10,6 +10,9 @@
                 <SingleYacht v-for="(element, index) in store.arrYachts" :key="index" :propsImg="element.img"
                     :propsName="element.name" />
             </div>
+            <div class="mt-5 d-flex justify-content-center ">
+                <button type="button" class="btn btn-outline-light py-3 px-4">View All</button>
+            </div>
         </div>
     </section>
 </template>
@@ -37,7 +40,7 @@ export default {
 section {
 
     background-color: $accent-color;
-    padding-block: 150px;
+    padding-block: 100px;
 
     h3 {
         color: $main-light-color;
@@ -54,6 +57,11 @@ section {
     .cards {
 
         gap: 40px;
+    }
+
+    button {
+
+        font-weight: 500;
     }
 }
 </style>

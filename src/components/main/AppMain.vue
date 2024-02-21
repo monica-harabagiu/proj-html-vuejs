@@ -6,6 +6,7 @@
         <MainServices/>
         <MainYachts/>
         <MainProposition/>
+        <MainBlog/>
     </main>
 </template>
 
@@ -17,6 +18,7 @@ import MainBetter from './MainBetter.vue'
 import MainServices from './MainServices.vue'
 import MainYachts from './MainYachts.vue'
 import MainProposition from './MainProposition.vue'
+import MainBlog from './MainBlog.vue'
 
 export default {
     name: 'AppMain',
@@ -31,7 +33,8 @@ export default {
         MainBetter,
         MainServices,
         MainYachts,
-        MainProposition
+        MainProposition,
+        MainBlog
     }
 }
 </script>
